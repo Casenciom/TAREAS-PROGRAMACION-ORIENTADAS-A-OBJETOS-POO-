@@ -18,11 +18,11 @@ class Empleado:
     def get_salario_base(self):
         return self.__salario_base
 
-    # Método de abstraccion
+    #Metodo abstracto
     def calcular_salario(self):
         raise NotImplementedError("Método abstracto")
 
-    # Método concreto
+    #Metodo concreto
     def mostrar_informacion(self):
         print(f"ID: {self.__id_empleado}")
         print(f"Nombre: {self.__nombre}")
@@ -36,7 +36,7 @@ class EmpleadoTiempoCompleto(Empleado):
         super().__init__(nombre, id_empleado)
         self.__bono = bono  # Encapsulación
 
-    # Implementación de método abstracto
+    # Implementación de metodo abstracto
     def calcular_salario(self):
         return self.get_salario_base() * 1.5 + self.__bono
 
@@ -47,7 +47,7 @@ class EmpleadoPorHoras(Empleado):
         super().__init__(nombre, id_empleado)
         self.__horas_trabajadas = horas_trabajadas  # Encapsulación
 
-    # Implementación de método abstracto
+    # Implementación de metodo abstracto
     def calcular_salario(self):
         return self.get_salario_base() * 0.8 * self.__horas_trabajadas
 

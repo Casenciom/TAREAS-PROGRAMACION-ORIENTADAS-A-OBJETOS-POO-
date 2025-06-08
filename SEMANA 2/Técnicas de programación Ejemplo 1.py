@@ -11,7 +11,7 @@ class Animal(ABC):
         return self.__nombre
 
     @abstractmethod
-    def hacer_sonido(self):  # Método abstracto
+    def hacer_sonido(self):  #Metodo abstracto
         pass
 
 # Herencia y Polimorfismo
