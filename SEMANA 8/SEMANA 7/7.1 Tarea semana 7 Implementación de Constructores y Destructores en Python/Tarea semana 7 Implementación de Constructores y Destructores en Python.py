@@ -1,5 +1,3 @@
-
-
 class Jugador:
     #"""Clase que representa a un jugador en un juego. Se usa el constructor para inicializar al jugador,
    # y el destructor para mostrar un mensaje al final del juego."""
