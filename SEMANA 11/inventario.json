@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "ARROZ",
+      "cantidad": 25,
+      "precio": 5.0
+    },
+    {
+      "id": 2,
+      "nombre": "ATUM",
+      "cantidad": 25,
+      "precio": 2.5
+    },
+    {
+      "id": 3,
+      "nombre": "ACEITE",
+      "cantidad": 20,
+      "precio": 2.5
+    },
+    {
+      "id": 4,
+      "nombre": "HARINA",
+      "cantidad": 30,
+      "precio": 2.5
+    },
+    {
+      "id": 5,
+      "nombre": "MAYONESA",
+      "cantidad": 18,
+      "precio": 1.0
+    },
+    {
+      "id": 6,
+      "nombre": "SALSA DE TOMATE",
+      "cantidad": 25,
+      "precio": 2.0
+    }
+  ]
+}
