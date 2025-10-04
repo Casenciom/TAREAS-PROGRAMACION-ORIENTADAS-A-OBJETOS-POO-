@@ -1,0 +1,38 @@
+{
+    "A001": {
+        "id_producto": "A001",
+        "nombre": "Patin",
+        "cantidad": 25,
+        "precio": 30.0
+    },
+    "A002": {
+        "id_producto": "A002",
+        "nombre": "Carro a pila",
+        "cantidad": 50,
+        "precio": 15.0
+    },
+    "A003": {
+        "id_producto": "A003",
+        "nombre": "Avion ",
+        "cantidad": 100,
+        "precio": 10.0
+    },
+    "A004": {
+        "id_producto": "A004",
+        "nombre": "Pelota",
+        "cantidad": 200,
+        "precio": 5.0
+    },
+    "A005": {
+        "id_producto": "A005",
+        "nombre": "Mu\u00f1eca ",
+        "cantidad": 250,
+        "precio": 5.0
+    },
+    "A006": {
+        "id_producto": "A006",
+        "nombre": "Monopolio",
+        "cantidad": 115,
+        "precio": 15.0
+    }
+}
